@@ -314,7 +314,7 @@ a {
   }
 
   header {
-    background-image: url("../img/fotoCarousel1.png,fotoCarousel2.png,fotoCarousel3.png,fotoCarousel4.png,fotoCarousel5.png");
+    background-image: url("../img/fotoCarousel1.png");
     background-size: 100% 100%;
     height: 100%;
     width: 100%;
@@ -424,7 +424,7 @@ a {
   }
 
   header {
-    background-image: url("../img/fotoCarousel1.png,fotoCarousel2.png,fotoCarousel3.png,fotoCarousel4.png,fotoCarousel5.png");
+    background-image: url("../img/fotoCarousel1.png");
     background-size: 100% 100%;
     height: 100%;
     width: 100%;
@@ -651,18 +651,27 @@ a {
   padding-bottom: 3%;
   padding-right: 3%;
 }
-.cardGeneral div div h5 {
+.cardGeneral div div div .card-img-top {
+  width: 100%;
+  height: 100%;
+}
+.cardGeneral div div div h5 {
   display: flex;
   justify-content: center;
 }
-.cardGeneral div div p {
+.cardGeneral div div div p {
   display: flex;
   justify-content: center;
 }
-.cardGeneral div div a {
+.cardGeneral div div div a {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+}
+
+.car-img-top {
+  width: 100%;
+  height: 100%;
 }
 
 /* clases para novedades.html*/
@@ -714,6 +723,7 @@ a {
 }
 .imagen-seguros img {
   width: 100%;
+  height: auto;
 }
 
 /* se quito la escala, ya que para el proyecto final no aplica*/
