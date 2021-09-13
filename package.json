@@ -1,0 +1,19 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalogiollo/WebMotos---Giollo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gonzalogiollo/WebMotos---Giollo/issues"
+  },
+  "homepage": "https://github.com/gonzalogiollo/WebMotos---Giollo#readme",
+  "description": ""
+}
